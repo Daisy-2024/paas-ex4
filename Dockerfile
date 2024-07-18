@@ -1,5 +1,5 @@
 #Copy the application files into the container.
-COPY ./var/www/html
+COPY . /var/www/html
 #Set the working directory in the container
 WORKDIR /var/www/html
 #Install necessary PHP extensions
