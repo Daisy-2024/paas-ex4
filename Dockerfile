@@ -15,4 +15,4 @@ RUN apt-get update && apt-get install-y\
 EXPOSE 80
 
 #Define the entry point for the container
-CMD["apache2-foreground"]
+CMD ["apache2-foreground"]
